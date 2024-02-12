@@ -1,0 +1,19 @@
+/* footer.css */
+
+/* Resetting some default styles for better consistency */
+
+  span {
+    color: #3498db;
+  }
+  
+  /* Styling the footer container */
+ 
+.footer-container {
+  background-color: #333; 
+  color: white;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+  grid-area: footer;
+}

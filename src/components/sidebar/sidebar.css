@@ -1,0 +1,26 @@
+.sidebar_container{
+    grid-area: aside;
+    background-color: #333;
+}
+.sidebar_items{
+    display: flex;
+    color: #f0f8ff;
+    margin: 20px 0px;
+    cursor: pointer;
+    padding: 30px 0px 30px 30px;
+    text-align: center;
+}
+.sidebar_container a{
+  text-decoration: none;
+  color: #f0f8ff;
+  font-size: 20px; 
+}
+.sidebar_items:hover{
+    background-color: #4d4d4d;
+
+}
+.s_icon{
+    width:50px;
+    height: 20px;
+
+}

@@ -1,0 +1,23 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.app_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto; /* Let the rows adjust based on content */
+    gap: 10px;
+}
+
+.app_container {
+    grid-template-areas:
+        'header header header header'
+        'aside  main main main'
+        'aside  main main main'
+        'footer  footer footer footer';
+}
+.page_container{
+    grid-area: main;
+}

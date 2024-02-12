@@ -1,0 +1,17 @@
+.documentation_container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .documentation_container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .documentation_container p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
